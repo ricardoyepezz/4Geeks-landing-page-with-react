@@ -3,8 +3,8 @@ import React from "react";
 function Navbar() {
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<div className="container-fluid">
+			<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+				<div className="container-fluid ">
 					<a className="navbar-brand" href="#">
 						Navbar
 					</a>
@@ -36,15 +36,6 @@ function Navbar() {
 							<li className="nav-item">
 								<a className="nav-link" href="#">
 									Pricing
-								</a>
-							</li>
-							<li className="nav-item">
-								<a
-									className="nav-link disabled"
-									href="#"
-									tabindex="-1"
-									aria-disabled="true">
-									Disabled
 								</a>
 							</li>
 						</ul>

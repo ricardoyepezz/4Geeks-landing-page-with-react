@@ -9,11 +9,16 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="container">
+			<div className="container mt-3">
 				<Jumbotron />
-				<Card />
-				<Footer />
+				<div className="row">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };
